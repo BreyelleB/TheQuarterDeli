@@ -19,6 +19,10 @@ public class Sandwich {
         this.toasted = toasted;
 
     }
+
+    public Sandwich(){
+
+    }
         public void addMeat(String name, boolean extra) {
         meats.add(new PremiumTopping(name, size, extra, true));
 

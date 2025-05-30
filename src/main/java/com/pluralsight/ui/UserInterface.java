@@ -55,6 +55,7 @@ public class UserInterface {
 
     private Sandwich buildSandwich() {
         System.out.println("Size (4, 8, 12): ");
+        Sandwich newSandwich = new Sandwich();
         int inches =    Integer.parseInt(scanner.nextLine());
         SandwichSize size = switch (inches) {
             case 4 -> SandwichSize.FOUR;
@@ -63,7 +64,6 @@ public class UserInterface {
             default -> SandwichSize.EIGHT;
         };
 
-
-
+        return newSandwich;
     }
 }
