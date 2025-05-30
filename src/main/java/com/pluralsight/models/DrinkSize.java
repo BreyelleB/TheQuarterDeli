@@ -1,7 +1,7 @@
 package com.pluralsight.models;
 
 public enum DrinkSize {
-    SMALL(2.00), MEDUIM(2.50), LARGE(3.00);
+    SMALL(2.00), MEDIUM(2.50), LARGE(3.00);
 
     private final double price;
 
